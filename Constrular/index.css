@@ -1,0 +1,14 @@
+*{margin:0px; padding:0px;}
+header {background:#8B0000; display:flex; width:100%; height:100px;}
+h1 {font-size:60px; margin-top:20px; font-family:Agency FB;}
+nav ul {display:flex; background-image: url("metal.jpg"); height:30px; justify-content:space-around; }
+li{list-style:none; }
+a{text-decoration:none; font-size:30px; font-family:Aparajita; color:#8B0000;}
+li:hover {border-bottom:solid 4px black; border-radius:6px;}
+header img {width:110px; height:100px;}
+
+article{display:flex; justify-content:center; height:1000px; background-image:url("tijolo.jpg");   background-attachment:fixed;}
+
+article iframe{ width:80%; margin-top:60px; border:solid 3px black; border-radius:10px 10px 10px 10px; height:900px; }
+
+footer{background:#8B0000; border-top:solid 5px black; display:flex; justify-content:space-around; width:100%; height:130px;}
